@@ -15,7 +15,7 @@ const CartList = ({ productos }) => {
       <div className="table-responsive">
         <div className="bg-light">
           <div className="table-responsive">
-            <table className="table table-striped-columns table-hover mb-3">
+            <table className="table table-striped-columns table-hover mb-3 text-center">
               <thead>
                 <tr>
                   <th align="center">Producto</th>
