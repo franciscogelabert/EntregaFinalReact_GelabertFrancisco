@@ -7,6 +7,8 @@ import CartContext from "../context/CartContext";
 const CartListContainer = () => {
   const contexto= useContext(CartContext);
 
+ 
+
   return <CartList productos={contexto.cart} />;
 };
 

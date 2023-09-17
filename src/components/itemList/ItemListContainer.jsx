@@ -39,6 +39,14 @@ const ItemListContainer = () => {
     });
   }, [clase]);
 
+ const crearOrdenDePedido = (orden) => {
+    const db = getFirestore();
+  
+    const pedido = collection(db, "ordenes");
+  
+    return addDoc(pedido, orden);
+  };
+
 
 
   return <ItemList productos={items} isLoading={isLoading} />;

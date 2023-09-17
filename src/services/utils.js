@@ -23,3 +23,11 @@ export const cartPesosQuantity = (cart) => {
   return count;
 };
 
+export const parseItemsOrder = (cart) => {
+  return cart.map((item) => ({
+    id: item.id,
+    titulo: item.titulo,
+    cantidad: item.cantidad,
+    precio: item.precio,
+  }));
+};

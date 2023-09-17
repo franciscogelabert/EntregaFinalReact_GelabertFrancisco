@@ -4,11 +4,28 @@ import propTypes from 'prop-types';
 import { IconTrash } from '@tabler/icons-react';
 import { useContext } from 'react';
 import CartContext from '../context/CartContext';
-import { cartPesosQuantity } from '../../services/utils';
+import { cartPesosQuantity , parseItemsOrder } from '../../services/utils';
+import { serverTimestamp } from 'firebase/firestore';
+
+
 
 const CartList = ({ productos }) => {
   const { cart, removeItem, clear, mas, menos } = useContext(CartContext);
   const precioTotal = cartPesosQuantity(cart);
+
+  const guardarOrden = () => {
+    const order = {
+      comprador: {
+        nombre: "Francisco Gelabert",
+        telefono: "3425689356",
+        mail: "francisco.gelabert@gmail.com"
+      },
+      items: parseItemsOrder(cart),
+      total: precioTotal,
+      fecha: serverTimestamp(),
+    }
+
+  };
 
   return (
     <>
@@ -62,10 +79,10 @@ const CartList = ({ productos }) => {
               </tbody>
             </table>
             <p className="fs-6 fw-bolder text-center ">
-                {precioTotal > 0 ? 'Total $: ' + precioTotal : ''}
-              </p>
+              {precioTotal > 0 ? 'Total $: ' + precioTotal : ''}
+            </p>
             <div className="d-flex justify-content-end col-sm-10">
-              <button className="btn btn-success me-2">Realizar Pedido</button>
+              <button onClick={() => guardarOrden} className="btn btn-success me-2">Realizar Pedido</button>
               <button onClick={() => clear()} className="btn btn-danger me-2">
                 Vaciar Carrito
               </button>

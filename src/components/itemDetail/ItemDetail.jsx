@@ -37,7 +37,7 @@ const ItemDetail = ({ producto }) => {
                 <IconHeart className="me-2" color="red" size={32} />
                 <IconMessage className="me-2" size={32} />
                 <IconShare className="me-2" color="green" size={32} />
-              </div>
+                </div>
               <p className="precio">  Precio $ {producto.precio} </p>
               <button   onClick={() => addItem(producto) } className="btn btn-primary me-2 mt-200">
                 Agregar al carrito
