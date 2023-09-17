@@ -2,14 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import ItemList from './ItemList';
 import { useParams } from 'react-router-dom';
-import {
-  collection,
-  getDocs,
-  getFirestore,
-  query,
-  where,
-  limit
-} from 'firebase/firestore';
+import { getProducts } from "../../services/services";
 
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);
@@ -17,36 +10,15 @@ const ItemListContainer = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const db = getFirestore();
-    const itemCollection = collection(db, 'alimentos');
+   
     setIsLoading(true);
-
-    if (clase === undefined) {
-      var q = query(itemCollection, limit(20));
-    } else {
-      var q = query(itemCollection, where('clase', '==', clase), limit(10));
-    
-    }
-
-    getDocs(q).then((snapshot) => {
-      const itemsFromSnapshot = snapshot.docs.map((doc) => ({
-        id: doc.id,
-        ...doc.data(),
-      }));
-
-      setItems(itemsFromSnapshot);
+    getProducts(clase).then((response) => {
+      setItems(response);
       setIsLoading(false);
     });
   }, [clase]);
 
- const crearOrdenDePedido = (orden) => {
-    const db = getFirestore();
-  
-    const pedido = collection(db, "ordenes");
-  
-    return addDoc(pedido, orden);
-  };
-
+ 
 
 
   return <ItemList productos={items} isLoading={isLoading} />;
