@@ -80,10 +80,10 @@ const CartList = ({ productos }) => {
       {!pedidoId && (
         <>
           <h2>Resumen del Pedido</h2>
-          <div className="table-responsive">
+          <div className="table-responsive ">
             <div className="bg-light">
-              <div className="table-responsive">
-                <table className="table table-striped-columns table-hover mb-3 text-center">
+              <div className="table-responsive ">
+                <table className="table table-striped-columns table-hover mb-3 text-center ">
                   <thead>
                     <tr>
                       <th align="center">Producto</th>
@@ -132,61 +132,30 @@ const CartList = ({ productos }) => {
                 <p className="fs-6 fw-bolder text-center ">
                   {precioTotal > 0 ? 'Total $: ' + precioTotal : ''}
                 </p>
-                <div>
+                <div className="mx-auto col-10 col-md-8 col-lg-6">
                   <h1>Ingresa tus datos para completar la compra</h1>
-
                   <form onSubmit={onSubmit}>
                     <div className="form-group mb-3 mt-3">
-                      <label
-                        for="nombre"
-                        className="col-sm-6 col-form-label fs-5"
-                      >
-                        Apellido y Nombres:
-                      </label>
+                      <label for="nombre" className="col-sm-4 col-form-label fs-5">Nombre y Apellido</label>
                       <div className="col-sm-10">
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="nombre"
-                          onChange={(evt) => onChange(evt, 'nombre')}
-                        />
+                        <input type="email" className="form-control w-80" id="nombre" onChange={(evt) => onChange(evt, 'nombre')} />
+                      </div>
+                    </div>
+                    <div className="form-group mb-3 mt-3">
+                      <label for="telefono" className="col-sm-4 col-form-label fs-5">Teléfono: </label>
+                      <div className="col-sm-10">
+                        <input type="text" className="form-control w-80" id="telefono" onChange={(evt) => onChange(evt, 'telefono')} />
+                      </div>
+                    </div>
+                    <div className="form-group mb-3 mt-3">
+                      <label for="mail" className="col-sm-4 col-form-label fs-5">Mail: </label>
+                      <div className="col-sm-10">
+                        <input type="text" className="form-control w-80" id="mail" onChange={(evt) => onChange(evt, 'mail')} />
                       </div>
                     </div>
 
-                    <div className="form-group mb-3 mt-3">
-                      <label
-                        for="telefono"
-                        className="col-sm-6 col-form-label fs-5"
-                      >
-                        Telefono:{' '}
-                      </label>
-                      <div className="col-sm-10">
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="telefono"
-                          onChange={(evt) => onChange(evt, 'telefono')}
-                        />
-                      </div>
-                    </div>
-
-                    <div className="form-group mb-3 mt-3">
-                      <label
-                        for="mail"
-                        className="col-sm-6 col-form-label fs-5"
-                      >
-                        Mail:
-                      </label>
-                      <div className="col-sm-10">
-                        <input
-                          type="email"
-                          className="form-control"
-                          id="mail"
-                          onChange={(evt) => onChange(evt, 'mail')}
-                        />
-                      </div>
-                    </div>
                   </form>
+
                 </div>
                 <div className="d-flex justify-content-end col-sm-10">
                   {precioTotal > 0 && !pedidoId ? (
