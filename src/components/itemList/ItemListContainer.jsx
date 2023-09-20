@@ -13,7 +13,7 @@ const ItemListContainer = () => {
    
     setIsLoading(true);
     getProducts(clase).then((response) => {
-      setItems(response);
+       setItems(response);
       setIsLoading(false);
     });
   }, [clase]);

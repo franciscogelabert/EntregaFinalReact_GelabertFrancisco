@@ -11,7 +11,7 @@ import CartContext from "../context/CartContext";
 
 
 const ItemDetail = ({ producto }) => {
-  const {cart, addItem}= useContext(CartContext);
+  const {addItem}= useContext(CartContext);
  
 
   return (

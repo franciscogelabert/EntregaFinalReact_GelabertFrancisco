@@ -18,7 +18,7 @@ const ItemDetailContainer = () => {
         setItem(null);
       })
       .finally(() => {
-        setIsLoading(false);
+        setIsLoading(false); 
       });
   }, [id]);
 

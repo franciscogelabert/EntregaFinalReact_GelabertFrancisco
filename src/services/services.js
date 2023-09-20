@@ -62,6 +62,5 @@ export const crearPedido = (orden) => {
     const db = getFirestore();
 
     const pedido = collection(db, "ordenes");
-
     return addDoc(pedido, orden);
 };

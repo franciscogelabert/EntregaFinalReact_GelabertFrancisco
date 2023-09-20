@@ -4,7 +4,7 @@ import CartWidget from './CartWidget.jsx';
 import Menu from './Menu.jsx';
 import Total from './Total.jsx';
 import "../../style.css";
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
