@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconShoppingCart } from '@tabler/icons-react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const CartWidget = (props) => {
   return (
