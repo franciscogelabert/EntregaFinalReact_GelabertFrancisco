@@ -13,6 +13,8 @@ A continuación, se presenta un diagrama de Casos de uso simplificado y un detal
 
 ## 02- Configuración
 
+### 02-1 Variables de entorno
+
 Configurar variables de entorno. En el Proyecto se presenta un archivo .env.example con las variables a setear.
 
 ```bash
@@ -26,7 +28,19 @@ VITE_FIRESTORE_APP_ID =
 
 ```
 
+### 02-2 Paquetes a Instalar
 
+Configurar variables de entorno. En el Proyecto se presenta un archivo .env.example con las variables a setear.
+
+| Descipción | URL | Comando |
+| --- | --- | ---  |
+| Node Js  | [https://nodejs.org/es/](https://nodejs.org/es/) |[Documentación](https://nodejs.org/es/docs)|
+| React   |  [https://vitejs.dev/guide/](https://vitejs.dev/guide/) | $ npm create vite@latest |
+| Boostrap | [https://getbootstrap.com/](https://getbootstrap.com/ ) | $ npm install bootstrap@5.3.1 |
+| Tabler Icons  |  [https://tabler.io/docs/icons/react](https://tabler.io/docs/icons/react) | $ npm install @tabler/icons-react |
+| React Router DOM | [https://www.npmjs.com/package/react-router-dom](https://www.npmjs.com/package/react-router-dom)  | $ npm i  react-router-dom |
+| Prop Types | [https://www.npmjs.com/package/prop-types](https://www.npmjs.com/package/prop-types)/ | $ npm i prop-types |
+| FireBase | [https://firebase.google.com/?hl=es](https://firebase.google.com/?hl=es)| $ npm install firebase |
 
 
 ## 03- Deploy Netlify
