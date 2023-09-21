@@ -58,6 +58,10 @@ A continuación se mencionan algunos de los sitios con utilizades para el desarr
 
 | Descipción | URL |
 | --- | --- |
+| IDE 1 - Visual Studio Code | https://code.visualstudio.com |
+| IDE 2 - Stackblitz  | https://stackblitz.com/ |
+| Versionado - Github | https://github.com/ |
+| Despliegue - Netlify | https://app.netlify.com/ |
 | Fuentes  | https://fonts.google.com/ |
 | Logo   |  https://es.freelogodesign.org/manager |
 | Favicon | https://favicon.io/  |
