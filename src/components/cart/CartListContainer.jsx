@@ -1,5 +1,5 @@
 import React from 'react';
-import CartList from './CartList.jsx';
+import CheckOut from './CheckOut.jsx';
 import { useContext } from "react";
 import CartContext from "../context/CartContext";
 
@@ -9,7 +9,7 @@ const CartListContainer = () => {
 
  
 
-  return <CartList productos={contexto.cart} />;
+  return <CheckOut productos={contexto.cart} />;
 };
 
 export default CartListContainer;

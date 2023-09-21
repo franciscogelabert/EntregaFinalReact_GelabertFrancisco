@@ -8,7 +8,7 @@ import { cartPesosQuantity, parseItemsOrder } from '../../services/utils';
 import { crearPedido } from '../../services/services';
 import { serverTimestamp } from 'firebase/firestore';
 
-const CartList = ({ productos }) => {
+const CheckOut = ({ productos }) => {
   const { cart, removeItem, clear, mas, menos } = useContext(CartContext);
   const precioTotal = cartPesosQuantity(cart);
   const [pedidoId, setPedidoId] = useState(null);
@@ -187,8 +187,8 @@ const CartList = ({ productos }) => {
     </>
   );
 };
-CartList.propTypes = {
+CheckOut.propTypes = {
   productos: propTypes.array,
 };
 
-export default CartList;
+export default CheckOut;
