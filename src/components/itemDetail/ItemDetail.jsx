@@ -32,6 +32,7 @@ const ItemDetail = ({ producto }) => {
             <div className="card-body mt-200">
               <p className="card-text "> {producto.descripcion}
                 <Link to="404.html"> Ver+</Link></p>
+              <p className="fw-semibold fs-7 p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle ">Cant. disponible: {producto.inventario} </p>
               <Link to="404.html">  {producto.tema}</Link>
               <div className="mt-4">
                 <IconHeart className="me-2" color="red" size={32} />
