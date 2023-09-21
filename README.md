@@ -9,8 +9,7 @@ El objetivo de Foodier es brindarle a un usuario la posibilidad de comprar artí
 
 A continuación, se presentan algunos diagramas simplificados y un detalle con la descripción de los mismos a trazo grueso.
 
-
-![Captura01](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/9c60df6c-95ba-4f76-ae86-a0d33e1abbf0)
+![Captura01](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/ecc26869-88f2-42c7-816c-72095d39c303)
 
 
 ![Captura02](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/e223e204-0363-4031-944d-9121e6fb2055)
