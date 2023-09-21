@@ -3,17 +3,29 @@
 *Entrega Final - Gelabert Francisco - ReactJS Comisión 47155 - Coderhouse*
 
 ## 01- Descripción entrega final
-La siguiente entrega agrupa todos los conceptos vistos en el curso de **Desarrollo Web**, desde la creación de los wireframes hasta el deploy en un servidor externo. 
+La siguiente entrega agrupa todos los conceptos vistos en el curso de **ReactJS**, desde la creación de la instalación de las herramientas hasta el deploy en un servidor externo. 
 
-En el punto **01** se puede acceder al Deploy de la entrega Final y debajo se puede acceder a las entregas incrementales intermedias, donde se puede observar como fué evolucionando la solución. 
-El objetivo de Foodier es brindarle a un usuario la posibilidad de publicar y organizar publicaciones relacionadas a recetas de comidas y experiencias en negocios gastronómicos.
-Permitiéndoles acceder a las recetas que más le gustaron a los usuarios (♥️), a listados de recetas de autores específicos (@) y a recetas que contengan temas particulares (#).
+El objetivo de Foodier es brindarle a un usuario la posibilidad de comprar artículos relacionados a recetas de comidas y experiencias en negocios gastronómicos.
 
-A continuación, se presenta un diagrama de Casos de uso simplificado y un detalle con la descripción de los mismos a trazo grueso.
+A continuación, se presentan algunos diagramas simplificados y un detalle con la descripción de los mismos a trazo grueso.
 
-## 02- Configuración
 
-### 02-1 Variables de entorno
+![Captura01](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/c6071262-30e5-4b81-bcf1-62432dbad6a9)
+
+![Captura02](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/e223e204-0363-4031-944d-9121e6fb2055)
+
+![Captura03](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/8dc3db31-078c-4ba2-8376-208391eeb970)
+
+
+
+
+## 02- Deploy Netlify
+
+[https://foodier-react-fgelabert-52150.netlify.app/ ](https://foodier-react-fgelabert-52150.netlify.app/)
+
+## 03- Configuración
+
+## 03-A- Variables de entorno
 
 Configurar variables de entorno. En el Proyecto se presenta un archivo .env.example con las variables a setear.
 
@@ -28,9 +40,7 @@ VITE_FIRESTORE_APP_ID =
 
 ```
 
-### 02-2 Paquetes a Instalar
-
-Configurar variables de entorno. En el Proyecto se presenta un archivo .env.example con las variables a setear.
+## 03-B- Paquetes a Instalar
 
 | Descipción | URL | Comando |
 | --- | --- | ---  |
@@ -41,11 +51,6 @@ Configurar variables de entorno. En el Proyecto se presenta un archivo .env.exam
 | React Router DOM | [https://www.npmjs.com/package/react-router-dom](https://www.npmjs.com/package/react-router-dom)  | $ npm i  react-router-dom |
 | Prop Types | [https://www.npmjs.com/package/prop-types](https://www.npmjs.com/package/prop-types)/ | $ npm i prop-types |
 | FireBase | [https://firebase.google.com/?hl=es](https://firebase.google.com/?hl=es)| $ npm install firebase |
-
-
-## 03- Deploy Netlify
-
-[https://foodier-react-fgelabert-52150.netlify.app/ ](https://foodier-react-fgelabert-52150.netlify.app/)
 
 
 ## 04- Demo
