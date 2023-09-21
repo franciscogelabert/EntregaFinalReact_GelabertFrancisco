@@ -62,6 +62,8 @@ A continuación se mencionan algunos de los sitios con utilizades para el desarr
 | IDE 2 - Stackblitz  | https://stackblitz.com/ |
 | Versionado - Github | https://github.com/ |
 | Despliegue - Netlify | https://app.netlify.com/ |
+| Video - Scre.io | https://scre.io/ |
+| Markdown - Stackedit | https://stackedit.io/app# |
 | Fuentes  | https://fonts.google.com/ |
 | Logo   |  https://es.freelogodesign.org/manager |
 | Favicon | https://favicon.io/  |
