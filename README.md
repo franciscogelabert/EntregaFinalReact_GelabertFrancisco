@@ -15,7 +15,8 @@ A continuación, se presentan algunos diagramas simplificados y un detalle con l
 
 ![Captura02](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/e223e204-0363-4031-944d-9121e6fb2055)
 
-![Captura03](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/8dc3db31-078c-4ba2-8376-208391eeb970)
+
+![Captura03](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/40eb7854-9bf9-46c8-ae3d-43e8eb24278e)
 
 
 
