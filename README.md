@@ -9,15 +9,15 @@ El objetivo de Foodier es brindarle a un usuario la posibilidad de comprar artí
 
 A continuación, se presentan algunos diagramas simplificados y un detalle con la descripción de los mismos a trazo grueso.
 
-![Captura01](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/ecc26869-88f2-42c7-816c-72095d39c303)
+![Captura 1](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/007f315a-1b48-4f20-b153-f59088d131a2)
+
+![Captura 2](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/f4b6c3a2-2684-440f-b8aa-825d08624c45)
 
 
-![Captura02](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/e223e204-0363-4031-944d-9121e6fb2055)
+![Captura 3](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/9abaff8b-6996-4664-b213-0c40964cee48)
 
 
-![Captura03](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/40eb7854-9bf9-46c8-ae3d-43e8eb24278e)
-
-
+![Captura 4](https://github.com/franciscogelabert/EntregaFinalReact_GelabertFrancisco/assets/50490304/d4e4d1e9-3193-4f05-97cc-7aaadb85bc2f)
 
 
 ## 02- Deploy Netlify
