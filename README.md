@@ -13,6 +13,19 @@ A continuación, se presenta un diagrama de Casos de uso simplificado y un detal
 
 ## 02- Configuración
 
+Configurar variables de entorno. En el Proyecto se presenta un archivo .env.example con las variables a setear.
+
+```bash
+
+VITE_FIRESTORE_API_KEY = 
+VITE_FIRESTORE_AUTH_DOMAIN = 
+VITE_FIRESTORE_PROJECT_ID = 
+VITE_FIRESTORE_STORAGE_BUCKET = 
+VITE_FIRESTORE_MESSAGING_SENDER_ID = 
+VITE_FIRESTORE_APP_ID = 
+
+```
+
 
 
 
