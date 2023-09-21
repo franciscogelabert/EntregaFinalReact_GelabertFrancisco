@@ -25,7 +25,7 @@ A continuación, se presentan algunos diagramas simplificados y un detalle con l
 
 ## 03- Configuración
 
-## 03-A- Variables de entorno
+### 03-A- Variables de entorno
 
 Configurar variables de entorno. En el Proyecto se presenta un archivo .env.example con las variables a setear.
 
@@ -40,7 +40,7 @@ VITE_FIRESTORE_APP_ID =
 
 ```
 
-## 03-B- Paquetes a Instalar
+### 03-B- Paquetes a Instalar
 
 | Descipción | URL | Comando |
 | --- | --- | ---  |
