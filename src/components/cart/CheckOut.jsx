@@ -32,7 +32,7 @@ const CheckOut = ({ productos }) => {
       comprador: {
         nombre: nombre,
         telefono: telefono,
-        mail: telefono,
+        mail: mail,
       },
       items: parseItemsOrder(cart),
       total: precioTotal,
